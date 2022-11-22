@@ -3,3 +3,4 @@
 6 f - tail -n +2 Alumnos.txt | awk '{print $1 " " $2 "-" $5}' 
 7 g - grep González Alumnos.txt | awk '{ print $1 " " $2}'| uniq
 8 j - sed -i 's/Vicente/Pepe/g' Alumno.txt
+9 k - awk '{if( $4>=2010 && $4<=2019 ){ print }}' Alumno.txt
