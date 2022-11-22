@@ -2,3 +2,4 @@
 5 e - mv si.txt -t ./si 
 6 f - tail -n +2 Alumnos.txt | awk '{print $1 " " $2 "-" $5}' 
 7 g - grep González Alumnos.txt | awk '{ print $1 " " $2}'| uniq
+8 j - sed -i 's/Vicente/Pepe/g' Alumno.txt
