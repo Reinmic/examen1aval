@@ -1,1 +1,2 @@
 3 d - cat Alumno.txt | grep -n SI | sed 's/:/ /g' | awk '{print $1}' > si.txt
+5 e - mv si.txt -t ./si 
